@@ -37,26 +37,21 @@ portrait_caption: >-
 
 education:
 - name: 华东师范大学
-  # logo: 
   position: >- 
     大数据科学与工程 (硕士)
   date: 2024.09 - 2027.06
 - name: 华东理工大学
-  # logo: 
   position: 信息管理与信息系统 (本科)
   date: 2020.09 - 2024.06
 
 experience:
 - name: Ucloud (优科得)
-  # logo: 
   position: 全栈开发实习生
   date: 2025.11 - 2026.04
 - name: 耐克体育(中国)有限公司
-  # logo: 
   position: 数据分析实习生
   date: 2024.01 - 2024.06
 - name: 德勤管理咨询（上海）有限公司
-  # logo: 
   position: 税务科技咨询实习生
   date: 2022.06 - 2022.08
 
