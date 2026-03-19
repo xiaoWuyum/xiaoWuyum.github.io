@@ -56,6 +56,23 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.65;
 }
 
+.showcase-page .card-body {
+    font-size: 0.98rem;
+    line-height: 1.65;
+}
+
+.showcase-page h4 {
+    font-family: "Fira Sans", "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.showcase-page p,
+.showcase-page li {
+    font-size: 0.98rem;
+    line-height: 1.7;
+}
+
 .navbar {
     opacity: 0.95;
 }
