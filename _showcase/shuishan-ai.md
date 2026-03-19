@@ -3,6 +3,7 @@ title: "水杉重构无感AI"
 layout: showcase
 venue: "实践经验"
 date: 2025-01-01
+show: true
 ---
 
 这是一个前后端分离的现代化Web应用，旨在为学生提供“学习-练习-闯关-测验”一体化的编程学习路径。

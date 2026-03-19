@@ -3,6 +3,7 @@ title: "Pardon - 英语学习助手"
 layout: showcase
 venue: "个人项目"
 date: 2024-03-19
+show: true
 ---
 
 这是一个基于 **Vite + React** 构建的现代化 Web 应用，旨在帮助用户在不同场景下学习地道的英语表达。项目利用 **shadcn/ui** 和 **Tailwind CSS** 搭建了美观且响应式的用户界面，并已成功部署在 Vercel 上。
