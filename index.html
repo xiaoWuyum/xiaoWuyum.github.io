@@ -12,6 +12,19 @@ navbar_title: Home
 
         {% include widgets/profile_card_bio_only.html %}
 
+        <div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <h5 class="mb-0 font-weight-normal">Showcase</h5>
+                    <a class="ml-auto small" href="{{ 'showcase' | relative_url }}">查看全部</a>
+                </div>
+                <p class="mb-2 text-muted">
+                    精选项目与实践沉淀，聚焦 Web 与 AI 应用的设计、实现与上线。
+                </p>
+                <a class="btn btn-outline-primary btn-sm" href="{{ 'showcase' | relative_url }}">进入 Showcase</a>
+            </div>
+        </div>
+
         <!-- Debugging widgets -->
         {% include widgets/debug_repo_name.html %}
         {% include widgets/debug_url.html %}
