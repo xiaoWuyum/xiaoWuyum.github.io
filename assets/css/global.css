@@ -1,17 +1,28 @@
 @charset "utf-8";
+html {
+    font-size: 16px;
+}
 body {
     font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
     font-weight: 400;
     padding-top: 5.0rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Fira Sans", "Lato", sans-serif;
     font-weight: 700;
+    line-height: 1.25;
 }
 
 .card {
     border-radius: 0.8rem!important;
+}
+
+.card-body:not([class*="p-"]) {
+    padding: 1.5rem;
 }
 
 .card-img-overlay {
@@ -35,15 +46,39 @@ h1, h2, h3, h4, h5, h6,
 
 .text-profile-position {
     font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
+    font-size: 0.98rem;
+    line-height: 1.65;
 }
 
 .navbar {
     opacity: 0.95;
+}
+
+.btn {
+    font-size: 0.95rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 0.45rem;
+}
+
+.btn-sm {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+}
+
+a:not(.nav-link):not(.btn) {
+    color: #2c4a9a;
+    text-decoration: none;
+}
+
+a:not(.nav-link):not(.btn):hover {
+    color: #1b3575;
+    text-decoration: underline;
 }
 
 .inline-badge {
@@ -87,6 +122,5 @@ div.lazy {
 }
 
 .email-text {
-    font-family: Source Code Pro, monospace;
+    font-family: "Source Code Pro", monospace;
 }
-
